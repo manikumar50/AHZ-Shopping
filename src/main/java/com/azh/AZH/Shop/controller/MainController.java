@@ -6,11 +6,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class MainController
 {
-    @GetMapping("/home")
-    public String Hello()
-    {
-        return "Say Hello";
-    }
+   
     @GetMapping("/getAny")
     public String getIdByName()
     {
